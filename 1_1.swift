@@ -10,8 +10,8 @@ if D<0 {
         var x:Double = (-b/2*a)
         print (x)
     } else {
-        var x1:Double = (-b+sqrt(D))/2*a
-        var x2:Double = (-b-sqrt(D))/2*a
+        var x1:Double = (-b+sqrt(D))/(2*a)
+        var x2:Double = (-b-sqrt(D))/(2*a)
         print (x1, x2)
     }
 }
