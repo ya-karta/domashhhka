@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+porcshe.performAction(.engineOn)
+lamborghini.performAction(.openWindows)
+print (lamborghini.description)
+print (porcshe.description)
 
+kamaz.performAction(action: .loadCargo(400))
+scania.performAction(action: .loadCargo(100000))
+print (kamaz.description)
+print (scania.description)
